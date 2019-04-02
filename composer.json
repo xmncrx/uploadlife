@@ -1,0 +1,20 @@
+{
+    "name": "chenchen/uploadlife",
+    "description": "一个通用上传",
+    "type": "l",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "不喜欢暴力运动",
+            "email": "chenrunxuan0506@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "chenchen\\": "src/"
+        }
+    }
+}
