@@ -471,10 +471,10 @@ class UploadFile
      * 检查文件大小是否合法
      * @access private
      * @param integer $size 数据
-     * @return boolean
+     * @return boolean echo dev
      */
     private function checkSize($size) {
-        echo '测试修改';exit;
+        echo '测试修改';exit; echo 'dev';
         return !($size > $this->maxSize) || (-1 == $this->maxSize);
     }
 
