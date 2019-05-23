@@ -474,6 +474,7 @@ class UploadFile
      * @return boolean
      */
     private function checkSize($size) {
+        echo '测试修改';exit;
         return !($size > $this->maxSize) || (-1 == $this->maxSize);
     }
 
