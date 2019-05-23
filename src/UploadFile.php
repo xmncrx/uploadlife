@@ -42,6 +42,7 @@ class UploadFile
     private $uploadFileInfo ;
 
     public function __get($name){
+        echo '这里是dev';exit;
         if(isset($this->config[$name])) {
             return $this->config[$name];
         }
