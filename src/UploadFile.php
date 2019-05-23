@@ -43,6 +43,7 @@ class UploadFile
 
     public function __get($name){
         echo '这里是dev';exit;
+        echo '这里是dev准备合并到qa';exit;
         if(isset($this->config[$name])) {
             return $this->config[$name];
         }
